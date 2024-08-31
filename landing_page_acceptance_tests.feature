@@ -38,3 +38,5 @@ Feature: Despliegue de la Landing Page
     When Navego a la landing page desplegada
     Then Aseguro que la página se carga correctamente, es completamente funcional, y accesible para los usuarios
 
+
+
