@@ -31,3 +31,59 @@ section {
     /* Azul muy claro (casi blanco) */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente la imagen y el texto */
+}
+
+.logo img {
+    margin-right: 10px;
+    /* Espacio entre la imagen y el texto */
+    width: 50px;
+    /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.language-switch button {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.language-switch button:hover {
+    background-color: #f1842a;
+    /* Azul claro para el hover */
+
+
+}
