@@ -87,3 +87,51 @@ nav ul li a {
 
 
 }
+
+
+.small-image {
+    width: 100px;
+    /* Ajusta el ancho según tus necesidades */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+/* HERO*/
+/* HERO*/
+/* HERO*/
+
+.hero {
+    background-image: url(../images/45.jpg);
+    background-size: cover;
+
+    background-position: bottom right;
+
+    /* Azul oscuro para el fondo del hero */
+    color: #fffbfb;
+    text-align: left;
+    padding: 100px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-content {
+    margin-right: 700px;
+    padding: 2%;
+    padding-right: 10%;
+}
+
+.cta-button {
+    background-color: #ff7300;
+    /* Azul claro para el botón */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.5em;
+    transition: background-color 0.3s ease;
+}
