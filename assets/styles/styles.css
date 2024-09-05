@@ -135,3 +135,118 @@ nav ul li a {
     font-size: 1.5em;
     transition: background-color 0.3s ease;
 }
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #004080;
+
+}
+
+/* ABOUT US*/
+/* ABOUT US*/
+/* ABOUT US*/
+
+
+.about-us-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    /* Maximum width for better readability */
+    width: 80%;
+    /* Flexible width for different screen sizes */
+    margin: auto;
+    /* Center horizontally */
+}
+
+.about-us-container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-us-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+
+.about-us-values {
+    text-align: left;
+    /* Align text to the left for better readability */
+}
+
+.about-us-values h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about-us-values ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about-us-values li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* BENEFITS */
+/* BENEFITS */
+/* BENEFITS */
+
+
+.benefits {
+    background-image: url(../images/BenefitsBG.jpg);
+}
+
+.benefits-container,
+.qa-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    /* Ancho máximo para mejor legibilidad */
+    width: 80%;
+    /* Ancho flexible para diferentes tamaños de pantalla */
+    margin: 20px auto;
+    /* Centra horizontalmente y agrega margen entre secciones */
+}
+
+.benefits-container h2,
+.qa-container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.benefits-description,
+.qa-item p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.benefits-list {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    /* Alinea la lista a la izquierda */
+    margin-left: 20px;
+    /* Agrega margen izquierdo para la lista */
+}
+
+.benefits-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Q&A */
+/* Q&A */
+/* Q&A */
