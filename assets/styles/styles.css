@@ -549,3 +549,37 @@ footer .fab {
         padding: 10px 0;
     }
 }
+
+/* Responsive for Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero-content {
+        margin-right: 100px;
+        padding: 5%;
+    }
+
+    .plans-container {
+        flex-wrap: wrap;
+    }
+
+    .plan {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-us-container,
+    .benefits-container,
+    .qa-container,
+    .contact-form-container {
+        width: 90%;
+    }
+}
