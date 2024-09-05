@@ -14,3 +14,20 @@ header {
     padding: 15px 0;
     margin-bottom: 0px;
 }
+
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+
+    padding: 20px;
+    /* Azul muy claro (casi blanco) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
