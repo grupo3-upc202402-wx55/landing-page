@@ -493,3 +493,59 @@ footer .fab {
 
 }
 
+/* Responsive for Mobile Phones */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 40px; 
+    }
+
+    .hero-content {
+        margin-right: 0;
+        padding: 10%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .cta-button {
+        font-size: 1.2em;
+        padding: 10px 20px;
+    }
+
+    .about-us-container,
+    .benefits-container,
+    .qa-container,
+    .contact-form-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        width: 80%;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}
