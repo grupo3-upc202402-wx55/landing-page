@@ -174,7 +174,6 @@ nav ul li a {
 
 .about-us-values {
     text-align: left;
-    /* Align text to the left for better readability */
 }
 
 .about-us-values h3 {
@@ -193,8 +192,6 @@ nav ul li a {
     color: #555;
 }
 
-/* BENEFITS */
-/* BENEFITS */
 /* BENEFITS */
 
 .benefits {
@@ -246,8 +243,6 @@ nav ul li a {
 }
 
 /* Q&A */
-/* Q&A */
-/* Q&A */
 
 .qa-item {
     margin-bottom: 20px;
@@ -266,77 +261,6 @@ nav ul li a {
     color: #555;
 }
 
-/* CONTACT US */
-/* CONTACT US */
-/* CONTACT US */
-
-.contact {
-    background-image: url(../images/ContactBG.jpg);
-}
-
-.contact-form-container {
-    background-color: #fff;
-    padding: 30px;
-    /* Aumenta el padding para más espacio interno */
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 500px;
-    /* Aumenta el ancho del formulario */
-    text-align: center;
-    margin: auto;
-    /* Agrega un margen para evitar que toque los bordes en pantallas pequeñas */
-}
-
-.contact-form-container h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    /* Tamaño de fuente más grande para el título */
-}
-
-.contact-form-group {
-    margin-bottom: 20px;
-    /* Aumenta el margen inferior entre los campos */
-    text-align: left;
-}
-
-.contact-form-group label {
-    display: block;
-    margin-bottom: 8px;
-    /* Espaciado más consistente */
-    font-weight: bold;
-}
-
-.contact-form-input,
-.contact-form-textarea {
-    width: 100%;
-    padding: 10px;
-    /* Aumenta el padding para mejorar la usabilidad */
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-    /* Tamaño de fuente más grande para mejor legibilidad */
-}
-
-.contact-form-button {
-    background-color: #ff7300;
-    color: white;
-    padding: 12px 20px;
-    /* Aumenta el padding para un botón más grande */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100%;
-    font-size: 16px;
-    /* Tamaño de fuente más grande para el botón */
-}
-
-.contact-form-button:hover {
-    background-color: #ee6b00;
-}
-
-/* PLANS */
-/* PLANS */
 /* PLANS */
 #plans {
     padding: 40px 0;
@@ -397,9 +321,18 @@ nav ul li a {
 }
 
 /* FEATURES */
-/* FEATURES */
-.feature {
-    background-image: url(../images/FeaturesBG.jpg);
+.feature_admin {
+    background-image: url(../images/BenefitsBG.jpg);
+    background-size: cover; 
+    background-position: top center;
+
+}
+
+.feature_suplier {
+    background-image: url(../images/BenefitsBG.jpg);
+    background-size: cover;
+    background-position: top center;
+
 }
 
 #features {
@@ -457,10 +390,64 @@ nav ul li a {
     line-height: 1.6;
 }
 
-/* FOOTER */
-/* FOOTER */
-/* FOOTER */
+/* OUR TEAM */
+.team-section {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url(../images/DemoBG.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    background: #fff;
+    border: 2px solid #ff7300;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.team-card img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #ff7300;
+}
+
+.team-card h4 {
+    margin: 10px 0 5px;
+}
+
+.team-card p {
+    color: #777;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+}
+
+.team-section h1 {
+    color: #fff;
+    font-size: xx-large;
+    text-align: center;
+}
+.team-section-p {
+    color: #fff;
+    font-weight: normal;
+    font-size: large;
+    text-align: justify;
+}
+
+
+/* FOOTER */
 
 footer {
     background-color: #ff7300;
